@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+nav{
+display: flex;
+position: sticky;
+background-color: lightcoral;
+top: 0;
+left: 0;
+right: 0;
+}
+.h1{
+    margin-bottom: 10px;
+    color: white;
+    padding: 20px
+}
+.li{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    font-size: 12px;
+    justify-items: space-around;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    word-spacing: 10px;
+}
+.active{
+    color:green;
+}
+.h3{
+    margin: 10px;
+    padding: 10px;
+    margin-left: 100px;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.par{
+    padding: 30px;
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.image{
+    padding: 10px;
+    margin: 5px;
+}
+.h4{
+    color: white;
+    margin-left: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+.genres{
+    color: white;
+    display: flex;
+    gap: 5px;
+    margin: 20px;
+}
+.p{
+    background: lightblue;
+    font-size: 12px;
+}
+.main{
+    display: flex;
+    gap: 5px;
+    padding-bottom: 2px;
+    margin-left: 20px;
+}
+.watch{
+    color: white;
+}
+span{
+    color: red;
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 100%;
+}
+.movie{
+    background-color: purple;
+    display: flex;
+}
+.all{
+    gap: 2px;
+}
+button{
+    border-radius: 20%;
+    background-color: white;
+    color: black;
+}
+footer{
+    color: white;
+    display: flex;
+    text-decoration: none;
+    margin-top: 40px;
+    background-color: lightsteelblue;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+.ref{
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    font-size: 12px;
+    
+}
+.contact{
+    color: red;
+    word-spacing: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.form{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 8px;
+    display: flex;
+    gap: 5px;
+}
+.sub{
+    border-radius: 0;
+    cursor: pointer;
+}
+a{
+;
+}
